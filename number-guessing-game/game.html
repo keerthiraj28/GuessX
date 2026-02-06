@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/game.css">
+    <title>GuessX</title>
+</head>
+<body>
+
+    <div class="top-bar">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="game.html" class="nav-btn" onclick="reload()">Play Again</a>
+        <p id="life">Life: 5</p>
+    </div>
+
+    <h2>Find the number between 1 to 100</h2>
+
+    <div class="body">
+        <h5>Guess a number</h5>
+
+        <input type="number" id="num" placeholder="Enter a number">
+
+        <p id="chance">You have only 5 chances</p>
+        <p id="rslt"></p>
+        <p id="ans"></p>
+
+        <button id="btn" onclick="guess()">Check</button>
+    </div>
+
+    <!-- Sound Effects -->
+    <audio id="winSound" src="assets/win.mp3" preload="auto"></audio>
+    <audio id="loseSound" src="assets/lose.mp3" preload="auto"></audio>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
