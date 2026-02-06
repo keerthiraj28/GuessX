@@ -40,23 +40,19 @@ The game focuses on clean UI, smooth user experience, keyboard interaction, and 
 
 ## 📂 Project Structure
 
-project-root/
-│
+project root
 ├── index.html
 ├── game.html
 ├── README.md
-│
-├── assets/
-│ ├── play.png
-│ ├── win.mp3
-│ └── lose.mp3
-│
-├── script/
-│ └── script.js
-│
-└── style/
-├── index.css
-└── game.css
+├── assests
+    ├── play.png
+    ├── win.mp3
+    ├── lose.mp3
+├── style
+    ├── index.css
+    ├── game.css
+└── script
+    ├── script.js
 
 ---
 
