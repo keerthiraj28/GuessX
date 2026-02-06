@@ -40,6 +40,7 @@ The game focuses on clean UI, smooth user experience, keyboard interaction, and 
 
 ## 📂 Project Structure
 
+```text
 project root
 ├── index.html
 ├── game.html
@@ -53,7 +54,7 @@ project root
     ├── game.css
 └── script
     ├── script.js
-
+```
 ---
 
 ## ✨ Future Improvements
