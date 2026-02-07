@@ -6,7 +6,7 @@ The game focuses on clean UI, smooth user experience, keyboard interaction, and 
 ---
 
 # 🎮 Game Link
-https://keerthiraj28.github.io/GuessX/
+[Click here to view the page](https://keerthiraj28.github.io/GuessX/)
 
 ## 🚀 Features
 
